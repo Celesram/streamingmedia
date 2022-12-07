@@ -85,6 +85,8 @@ a .button {
     color: #fff;
     text-decoration: none;
     border-radius: 20px;
+    float: left;
+    
 
 }
 
@@ -349,6 +351,10 @@ a:-webkit-any-link {
             height: 500px;
             max-width: 375px;
             min-width: 774;
+        }
+
+        a .button {
+            float: right;
         }
     }
 }
